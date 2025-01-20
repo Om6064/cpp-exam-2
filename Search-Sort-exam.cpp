@@ -14,7 +14,7 @@ public:
         }
         cout << endl;
     }
-    void selection(vector<int> arr, int size)
+    void selection(vector<int> &arr, int size)
     {
         for (int i = 0; i < size - 1; i++)
         {
